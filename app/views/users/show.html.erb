@@ -7,7 +7,11 @@
 				<%= @user.name %>
 			</h1>
 		</section>
-	</aside>
+	</aside>	
+</div>
 
-	
+<div class="row">
+	<div class="span3 offset10">
+		<%= button_to "Create a Team", new_team_path, :method => "get", class: "btn btn btn-primary" %>
+	</div>
 </div>
